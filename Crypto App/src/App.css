@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+@import "react-alice-carousel/lib/alice-carousel.css";
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@300;400;800&family=Teko:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: gold;
+}
+
+.overallTop{
+  background-color: #14161a;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.typoTracker{
+  flex: 1;
+  color: gold;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bannerImg{
+  background-image: url("../public/coolcat.webp");
+  background-size: cover;
+}
+
+.bannerContainer{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25;
+  justify-content: space-around;
+}
+
+.tagLine{
+  display: flex;
+  height: 40%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.theWheel{
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.itemsLink{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.profitRow{
+  background-color: #16171a;
+  cursor: pointer;
+  font-family: Montserrat;
+}
+
+.profitRow:hover{
+  background-color: #131111;
+}
+.pagiNation button{
+  color: gold;
+}
+
+.coinContainer{
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .coinContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.sideBar{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25;
+  border-right: 2px solid grey;
+}
+
+@media only screen and (max-width: 768px){
+  .sideBar {
+    width: 100%;
+  }
+}
+.coinHeader{
+  font-weight: bold;
+  margin-bottom: 20;
+  font-family: Montserrat;
+}
+
+.coinDescription{
+  width: 100%;
+  font-family: Montserrat;
+  padding: 25;
+  padding-bottom: 15;
+  padding-top: 0;
+  text-align: center;
+}
+
+.marketData{
+  align-self: flex-start;
+  padding: 25;
+  padding-top: 10;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .marketData {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .marketData {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 0px) {
+  .marketData {
+    align-items: flex-start;
+  }
+}
+
+.chartContainer{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25;
+  padding: 40;
+}
+
+@media screen and (max-width: 768px) {
+  .chartContainer {
+    width: 100%;
+    margin-top: 0;
+    padding: 20;
+    padding-top: 0;
+  }
+}
+
+.selectBtn {
+  border-radius: 5;
+  padding: 10;
+  padding-left: 20;
+  padding-right: 20;
+  font-family: Montserrat;
+  cursor: pointer;
+  background-color: gold;
+  color: black;
+  font-weight: 700;
+  width: 22%;
+  text-align: center;
+}
+
+.selectBtn:hover{
+  background-color:#13161a;
+  color: gold;
+  box-shadow: 0 9px 12px gold;
+}
+
+.formContainer {
+  text-align: center;
+  width: 100%;
+}
+
+.btnContainer{
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .formContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.commentContainer{
+  width: 75%;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25;
+  padding: 40;
+}
+
+@media screen and (max-width: 768px) {
+  .commentContainer {
+    width: 100%;
+    margin-top: 0;
+    padding: 20;
+    padding-top: 0;
+  }
+}
